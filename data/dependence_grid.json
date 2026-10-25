@@ -1,0 +1,1971 @@
+{
+ "meta": {
+  "seeds": [
+   101,
+   102,
+   103,
+   104
+  ],
+  "seconds": 218
+ },
+ "power": [
+  {
+   "shape": "unabhaengig",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.030000000000000002,
+    "spearman": 0.04,
+    "dcor": 0.0475,
+    "xi": 0.04,
+    "hoeffding": 0.047499999999999994,
+    "mi": 0.04750000000000001
+   },
+   "sd": {
+    "pearson": 0.01825741858350554,
+    "spearman": 0.01414213562373095,
+    "dcor": 0.03593976442141304,
+    "xi": 0.01632993161855452,
+    "hoeffding": 0.029860788111948193,
+    "mi": 0.028722813232690148
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "monoton",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.11750000000000001,
+    "spearman": 0.13,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.017078251276599333,
+    "spearman": 0.025819888974716116,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.94,
+    "spearman": 0.9424999999999999,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 0.9975
+   },
+   "sd": {
+    "pearson": 0.036514837167011045,
+    "spearman": 0.026299556396765792,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0050000000000000044
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0075,
+    "spearman": 0.0,
+    "dcor": 1.0,
+    "xi": 0.7925,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.009574271077563382,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.05737304826019502,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.1575,
+    "spearman": 0.10500000000000001,
+    "dcor": 1.0,
+    "xi": 0.5950000000000001,
+    "hoeffding": 0.9975,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.025,
+    "spearman": 0.009999999999999995,
+    "dcor": 0.0,
+    "xi": 0.03415650255319866,
+    "hoeffding": 0.0050000000000000044,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0775,
+    "spearman": 0.07749999999999999,
+    "dcor": 0.63,
+    "xi": 0.685,
+    "hoeffding": 0.7825,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.020615528128088305,
+    "spearman": 0.018929694486000907,
+    "dcor": 0.0355902608401044,
+    "xi": 0.04434711565216688,
+    "hoeffding": 0.038622100754188225,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "gemeinsam",
+   "n": 300,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.3825,
+    "spearman": 0.065,
+    "dcor": 0.7725,
+    "xi": 0.10250000000000001,
+    "hoeffding": 0.085,
+    "mi": 0.28500000000000003
+   },
+   "sd": {
+    "pearson": 0.041129875597510204,
+    "spearman": 0.01732050807568877,
+    "dcor": 0.06994045086119093,
+    "xi": 0.025,
+    "hoeffding": 0.025166114784235832,
+    "mi": 0.02081665999466132
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.036000000000000004,
+    "spearman": 0.04,
+    "dcor": 0.03899999999999999,
+    "xi": 0.039,
+    "hoeffding": 0.043000000000000003,
+    "mi": 0.049999999999999996
+   },
+   "sd": {
+    "pearson": 0.010327955589886445,
+    "spearman": 0.005656854249492382,
+    "dcor": 0.005999999999999998,
+    "xi": 0.00886942313043338,
+    "hoeffding": 0.0038297084310253524,
+    "mi": 0.015491933384829668
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 0.919,
+    "hoeffding": 1.0,
+    "mi": 0.99
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.013613718571108104,
+    "hoeffding": 0.0,
+    "mi": 0.0023094010767585054
+   }
+  },
+  {
+   "shape": "monoton",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.123,
+    "spearman": 0.133,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.0161245154965971,
+    "spearman": 0.03139001964531614,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.507,
+    "spearman": 0.526,
+    "dcor": 0.657,
+    "xi": 1.0,
+    "hoeffding": 0.698,
+    "mi": 0.776
+   },
+   "sd": {
+    "pearson": 0.012806248474865708,
+    "spearman": 0.01861898672502527,
+    "dcor": 0.01437590576856523,
+    "xi": 0.0,
+    "hoeffding": 0.021786846184490897,
+    "mi": 0.027325202042558953
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.007,
+    "spearman": 0.002,
+    "dcor": 0.29100000000000004,
+    "xi": 0.41200000000000003,
+    "hoeffding": 0.915,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.002,
+    "spearman": 0.0023094010767585028,
+    "dcor": 0.013216151734399325,
+    "xi": 0.0163299316185545,
+    "hoeffding": 0.021007935008784943,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.14400000000000002,
+    "spearman": 0.09100000000000001,
+    "dcor": 0.646,
+    "xi": 0.29900000000000004,
+    "hoeffding": 0.29300000000000004,
+    "mi": 0.981
+   },
+   "sd": {
+    "pearson": 0.009797958971132706,
+    "spearman": 0.01996663884249592,
+    "dcor": 0.025819888974716137,
+    "xi": 0.028913664589601915,
+    "hoeffding": 0.03924283374069717,
+    "mi": 0.006831300510639738
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.07100000000000001,
+    "spearman": 0.08,
+    "dcor": 0.138,
+    "xi": 0.32699999999999996,
+    "hoeffding": 0.20900000000000002,
+    "mi": 0.959
+   },
+   "sd": {
+    "pearson": 0.010519822558706335,
+    "spearman": 0.014605934866804431,
+    "dcor": 0.011999999999999995,
+    "xi": 0.02199999999999999,
+    "hoeffding": 0.04588391148685272,
+    "mi": 0.0050332229568471705
+   }
+  },
+  {
+   "shape": "gemeinsam",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.295,
+    "spearman": 0.07300000000000001,
+    "dcor": 0.42400000000000004,
+    "xi": 0.07200000000000001,
+    "hoeffding": 0.079,
+    "mi": 0.11699999999999999
+   },
+   "sd": {
+    "pearson": 0.003829708431025356,
+    "spearman": 0.005033222956847166,
+    "dcor": 0.042457822208241736,
+    "xi": 0.022390474164995552,
+    "hoeffding": 0.012382783747337808,
+    "mi": 0.0150996688705415
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.056999999999999995,
+    "spearman": 0.062,
+    "dcor": 0.056999999999999995,
+    "xi": 0.044000000000000004,
+    "hoeffding": 0.053000000000000005,
+    "mi": 0.041
+   },
+   "sd": {
+    "pearson": 0.006831300510639732,
+    "spearman": 0.010583005244258363,
+    "dcor": 0.013613718571108092,
+    "xi": 0.008,
+    "hoeffding": 0.012806248474865695,
+    "mi": 0.015790292376436015
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.961,
+    "spearman": 0.943,
+    "dcor": 0.941,
+    "xi": 0.53,
+    "hoeffding": 0.906,
+    "mi": 0.377
+   },
+   "sd": {
+    "pearson": 0.00886942313043339,
+    "spearman": 0.003829708431025356,
+    "dcor": 0.0038297084310253077,
+    "xi": 0.0212916258968951,
+    "hoeffding": 0.01200000000000001,
+    "mi": 0.03656956840507328
+   }
+  },
+  {
+   "shape": "monoton",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 0.997,
+    "hoeffding": 1.0,
+    "mi": 0.987
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.0020000000000000018,
+    "hoeffding": 0.0,
+    "mi": 0.005033222956847171
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.07100000000000001,
+    "spearman": 0.09,
+    "dcor": 0.6949999999999998,
+    "xi": 0.886,
+    "hoeffding": 0.702,
+    "mi": 0.588
+   },
+   "sd": {
+    "pearson": 0.016124515496597103,
+    "spearman": 0.024765567494675615,
+    "dcor": 0.023180451534284916,
+    "xi": 0.010583005244258372,
+    "hoeffding": 0.014787382008545902,
+    "mi": 0.0065319726474218145
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.161,
+    "spearman": 0.178,
+    "dcor": 0.18,
+    "xi": 0.8010000000000002,
+    "hoeffding": 0.16199999999999998,
+    "mi": 0.179
+   },
+   "sd": {
+    "pearson": 0.027784887978899612,
+    "spearman": 0.014787382008545891,
+    "dcor": 0.019321835661585914,
+    "xi": 0.01708800749063504,
+    "hoeffding": 0.028189832682487963,
+    "mi": 0.022949219304078002
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.014000000000000002,
+    "spearman": 0.008,
+    "dcor": 0.075,
+    "xi": 0.188,
+    "hoeffding": 0.067,
+    "mi": 0.547
+   },
+   "sd": {
+    "pearson": 0.007659416862050706,
+    "spearman": 0.003265986323710904,
+    "dcor": 0.0020000000000000018,
+    "xi": 0.013856406460551017,
+    "hoeffding": 0.020752509888364506,
+    "mi": 0.016451950239004056
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.136,
+    "spearman": 0.1,
+    "dcor": 0.21000000000000002,
+    "xi": 0.161,
+    "hoeffding": 0.143,
+    "mi": 0.307
+   },
+   "sd": {
+    "pearson": 0.03081125335544358,
+    "spearman": 0.024657656011875907,
+    "dcor": 0.014787382008545888,
+    "xi": 0.03553402125663047,
+    "hoeffding": 0.024303634844744248,
+    "mi": 0.038557316642456665
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.09100000000000001,
+    "spearman": 0.091,
+    "dcor": 0.09,
+    "xi": 0.159,
+    "hoeffding": 0.11599999999999999,
+    "mi": 0.309
+   },
+   "sd": {
+    "pearson": 0.010519822558706335,
+    "spearman": 0.008869423130433377,
+    "dcor": 0.005163977794943222,
+    "xi": 0.015448840301675293,
+    "hoeffding": 0.016329931618554526,
+    "mi": 0.021999999999999995
+   }
+  },
+  {
+   "shape": "gemeinsam",
+   "n": 30,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 1000,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.217,
+    "spearman": 0.068,
+    "dcor": 0.241,
+    "xi": 0.058,
+    "hoeffding": 0.071,
+    "mi": 0.068
+   },
+   "sd": {
+    "pearson": 0.01996663884249592,
+    "spearman": 0.009797958971132713,
+    "dcor": 0.020752509888364513,
+    "xi": 0.006928203230275513,
+    "hoeffding": 0.010519822558706333,
+    "mi": 0.006531972647421809
+   }
+  }
+ ],
+ "noise": [
+  {
+   "shape": "parabel",
+   "n": 100,
+   "noise": 0.5,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.105,
+    "spearman": 0.1375,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.031091263510296053,
+    "spearman": 0.038622100754188225,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.125,
+    "spearman": 0.14500000000000002,
+    "dcor": 1.0,
+    "xi": 1.0,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.023804761428476165,
+    "spearman": 0.009999999999999995,
+    "dcor": 0.0,
+    "xi": 0.0,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 100,
+   "noise": 2.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0725,
+    "spearman": 0.0925,
+    "dcor": 0.8674999999999999,
+    "xi": 0.715,
+    "hoeffding": 0.845,
+    "mi": 0.83
+   },
+   "sd": {
+    "pearson": 0.015000000000000001,
+    "spearman": 0.026299556396765827,
+    "dcor": 0.00957427107756339,
+    "xi": 0.025166114784235853,
+    "hoeffding": 0.010000000000000009,
+    "mi": 0.021602468994692852
+   }
+  },
+  {
+   "shape": "parabel",
+   "n": 100,
+   "noise": 4.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0475,
+    "spearman": 0.05,
+    "dcor": 0.205,
+    "xi": 0.2,
+    "hoeffding": 0.2075,
+    "mi": 0.245
+   },
+   "sd": {
+    "pearson": 0.03304037933599834,
+    "spearman": 0.04760952285695233,
+    "dcor": 0.0443471156521669,
+    "xi": 0.024494897427831775,
+    "hoeffding": 0.04349329450233297,
+    "mi": 0.03109126351029605
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 0.5,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.68,
+    "spearman": 0.6525000000000001,
+    "dcor": 0.8975000000000001,
+    "xi": 1.0,
+    "hoeffding": 0.97,
+    "mi": 0.915
+   },
+   "sd": {
+    "pearson": 0.034641016151377525,
+    "spearman": 0.05251983752196245,
+    "dcor": 0.02986078811194822,
+    "xi": 0.0,
+    "hoeffding": 0.014142135623730963,
+    "mi": 0.017320508075688735
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.5075000000000001,
+    "spearman": 0.5225,
+    "dcor": 0.63,
+    "xi": 1.0,
+    "hoeffding": 0.7024999999999999,
+    "mi": 0.7424999999999999
+   },
+   "sd": {
+    "pearson": 0.05500000000000002,
+    "spearman": 0.04924428900898054,
+    "dcor": 0.06480740698407858,
+    "xi": 0.0,
+    "hoeffding": 0.04645786621588784,
+    "mi": 0.03304037933599838
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 2.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.28250000000000003,
+    "spearman": 0.29500000000000004,
+    "dcor": 0.3075,
+    "xi": 0.7150000000000001,
+    "hoeffding": 0.30000000000000004,
+    "mi": 0.33
+   },
+   "sd": {
+    "pearson": 0.035939764421413035,
+    "spearman": 0.031091263510296053,
+    "dcor": 0.03499999999999999,
+    "xi": 0.031091263510296025,
+    "hoeffding": 0.021602468994692862,
+    "mi": 0.014142135623730965
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 4.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0925,
+    "spearman": 0.1075,
+    "dcor": 0.095,
+    "xi": 0.1975,
+    "hoeffding": 0.095,
+    "mi": 0.11
+   },
+   "sd": {
+    "pearson": 0.023629078131263043,
+    "spearman": 0.017078251276599333,
+    "dcor": 0.01914854215512676,
+    "xi": 0.032015621187164243,
+    "hoeffding": 0.012909944487358058,
+    "mi": 0.021602468994692873
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 0.5,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.005,
+    "spearman": 0.005,
+    "dcor": 0.5075000000000001,
+    "xi": 0.6799999999999999,
+    "hoeffding": 1.0,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.005773502691896258,
+    "spearman": 0.005773502691896258,
+    "dcor": 0.017078251276599347,
+    "xi": 0.04242640687119284,
+    "hoeffding": 0.0,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.01,
+    "spearman": 0.0025,
+    "dcor": 0.265,
+    "xi": 0.43749999999999994,
+    "hoeffding": 0.915,
+    "mi": 1.0
+   },
+   "sd": {
+    "pearson": 0.008164965809277261,
+    "spearman": 0.005,
+    "dcor": 0.017320508075688763,
+    "xi": 0.03201562118716425,
+    "hoeffding": 0.017320508075688787,
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 2.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.015,
+    "spearman": 0.015,
+    "dcor": 0.0825,
+    "xi": 0.1225,
+    "hoeffding": 0.09,
+    "mi": 0.7324999999999999
+   },
+   "sd": {
+    "pearson": 0.012909944487358056,
+    "spearman": 0.017320508075688773,
+    "dcor": 0.025,
+    "xi": 0.02872281323269014,
+    "hoeffding": 0.02943920288775949,
+    "mi": 0.03593976442141308
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 4.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0375,
+    "spearman": 0.05,
+    "dcor": 0.0625,
+    "xi": 0.0475,
+    "hoeffding": 0.042499999999999996,
+    "mi": 0.0575
+   },
+   "sd": {
+    "pearson": 0.01707825127659933,
+    "spearman": 0.023094010767585035,
+    "dcor": 0.018929694486000907,
+    "xi": 0.00957427107756338,
+    "hoeffding": 0.03862210075418823,
+    "mi": 0.015000000000000003
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 1.0,
+    "spearman": 1.0,
+    "dcor": 1.0,
+    "xi": 0.915,
+    "hoeffding": 1.0,
+    "mi": 0.9924999999999999
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0,
+    "xi": 0.03316624790355398,
+    "hoeffding": 0.0,
+    "mi": 0.00957427107756339
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 2.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.925,
+    "spearman": 0.91,
+    "dcor": 0.8925,
+    "xi": 0.275,
+    "hoeffding": 0.8674999999999999,
+    "mi": 0.425
+   },
+   "sd": {
+    "pearson": 0.028867513459481266,
+    "spearman": 0.024494897427831758,
+    "dcor": 0.04112987559751021,
+    "xi": 0.009999999999999983,
+    "hoeffding": 0.0505799696849784,
+    "mi": 0.031091263510296056
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 4.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.42,
+    "spearman": 0.38749999999999996,
+    "dcor": 0.38,
+    "xi": 0.07750000000000001,
+    "hoeffding": 0.3375,
+    "mi": 0.1075
+   },
+   "sd": {
+    "pearson": 0.0469041575982343,
+    "spearman": 0.024999999999999994,
+    "dcor": 0.0282842712474619,
+    "xi": 0.053150729063673255,
+    "hoeffding": 0.023629078131263036,
+    "mi": 0.02629955639676583
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 8.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.1275,
+    "spearman": 0.125,
+    "dcor": 0.1225,
+    "xi": 0.0675,
+    "hoeffding": 0.11250000000000002,
+    "mi": 0.0625
+   },
+   "sd": {
+    "pearson": 0.0050000000000000044,
+    "spearman": 0.020816659994661323,
+    "dcor": 0.020615528128088298,
+    "xi": 0.028722813232690148,
+    "hoeffding": 0.018929694486000917,
+    "mi": 0.02872281323269014
+   }
+  }
+ ],
+ "raster": [
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.04
+   },
+   "sd": {
+    "mi": 0.03559026084010437
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.052500000000000005
+   },
+   "sd": {
+    "mi": 0.004999999999999998
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.0475
+   },
+   "sd": {
+    "mi": 0.017078251276599333
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.05
+   },
+   "sd": {
+    "mi": 0.02160246899469287
+   }
+  },
+  {
+   "shape": "unabhaengig",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.0625
+   },
+   "sd": {
+    "mi": 0.023629078131263043
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 1.0
+   },
+   "sd": {
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9875
+   },
+   "sd": {
+    "mi": 0.00957427107756339
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.865
+   },
+   "sd": {
+    "mi": 0.017320508075688787
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.62
+   },
+   "sd": {
+    "mi": 0.043204937989385774
+   }
+  },
+  {
+   "shape": "linear",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.25
+   },
+   "sd": {
+    "mi": 0.05597618541248889
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.10250000000000001
+   },
+   "sd": {
+    "mi": 0.041129875597510225
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.7675000000000001
+   },
+   "sd": {
+    "mi": 0.03774917217635378
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9175
+   },
+   "sd": {
+    "mi": 0.04031128874149273
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.8049999999999999
+   },
+   "sd": {
+    "mi": 0.04999999999999999
+   }
+  },
+  {
+   "shape": "sinus",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.5
+   },
+   "sd": {
+    "mi": 0.0559761854124889
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 1.0
+   },
+   "sd": {
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 1.0
+   },
+   "sd": {
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 1.0
+   },
+   "sd": {
+    "mi": 0.0
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.955
+   },
+   "sd": {
+    "mi": 0.010000000000000009
+   }
+  },
+  {
+   "shape": "kreis",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.6224999999999999
+   },
+   "sd": {
+    "mi": 0.022173557826083472
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.97
+   },
+   "sd": {
+    "mi": 0.008164965809277268
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9624999999999999
+   },
+   "sd": {
+    "mi": 0.00957427107756339
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9575
+   },
+   "sd": {
+    "mi": 0.018929694486000872
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9325
+   },
+   "sd": {
+    "mi": 0.014999999999999953
+   }
+  },
+  {
+   "shape": "schachbrett",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.63
+   },
+   "sd": {
+    "mi": 0.05597618541248888
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 3,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9624999999999999
+   },
+   "sd": {
+    "mi": 0.01892969448600093
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.9775
+   },
+   "sd": {
+    "mi": 0.00957427107756339
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 8,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.92
+   },
+   "sd": {
+    "mi": 0.021602468994692852
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 12,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.75
+   },
+   "sd": {
+    "mi": 0.014142135623730965
+   }
+  },
+  {
+   "shape": "streuung",
+   "n": 100,
+   "noise": 1.0,
+   "bins": 20,
+   "B": 199,
+   "runs": 400,
+   "which": [
+    "mi"
+   ],
+   "rate": {
+    "mi": 0.45499999999999996
+   },
+   "sd": {
+    "mi": 0.029999999999999995
+   }
+  }
+ ],
+ "dim": [
+  {
+   "p": 500,
+   "n": 50,
+   "runs": 100,
+   "dcor": 0.9877294210736096,
+   "dcor2_v": 0.9756097187357473,
+   "dcor2_u": 0.003955505263027882
+  },
+  {
+   "p": 1000,
+   "n": 50,
+   "runs": 100,
+   "dcor": 0.9938154440335163,
+   "dcor2_v": 0.9876692029809712,
+   "dcor2_u": 0.0034730767134145907
+  }
+ ],
+ "probe": {
+  "cell": {
+   "shape": "kreis",
+   "n": 40,
+   "noise": 1.0,
+   "bins": 5,
+   "B": 49,
+   "runs": 16,
+   "which": [
+    "pearson",
+    "spearman",
+    "dcor",
+    "xi",
+    "hoeffding",
+    "mi"
+   ],
+   "rate": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.0625,
+    "xi": 0.25,
+    "hoeffding": 0.0625,
+    "mi": 0.6875
+   },
+   "sd": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "dcor": 0.08838834764831845,
+    "xi": 0.1767766952966369,
+    "hoeffding": 0.08838834764831845,
+    "mi": 0.08838834764831845
+   }
+  },
+  "stats": {
+   "pearson": 0.28028719549674835,
+   "spearman": 0.29069185884968046,
+   "dcor": 0.3173878428913524,
+   "xi": 0.33064740205612675,
+   "hoeffding": 0.01396060285137156,
+   "mi": 0.29431395055899073
+  },
+  "p": {
+   "pearson": 0.03,
+   "spearman": 0.03,
+   "dcor": 0.04,
+   "xi": 0.01,
+   "hoeffding": 0.09,
+   "mi": 0.01
+  }
+ }
+}
