@@ -73,12 +73,12 @@ with st.expander("So funktionieren die sechs Maße", expanded=True):
 Jedes Maß gibt **eine Zahl**; ob sie „groß genug“ ist, entscheidet ein **Permutationstest**: y wird zufällig umgeordnet (dann ist die Abhängigkeit zerstört), die Zahl neu gerechnet, und der
 **p-Wert** ist der Anteil der Umordnungen, die mindestens so groß ausfallen wie die gemessene. Alle sechs Maße sehen dieselben Umordnungen.
 
-| Maß | Idee | Sieht | Blind für |
+| Maß | Idee | Sieht | Blind oder schwach für |
 |---|---|---|---|
 | **Pearson r** | Geradlinigkeit der Punkte | Gerade, Trend | Parabel, Kreis, Schachbrett, Streuung |
 | **Spearman ρ_S** | Pearson der Ränge | monotone Kurven | alles Nichtmonotone |
-| **Distanzkorrelation** | Abstände der Punkte untereinander, doppelt zentriert | fast jede Abhängigkeit, auch gemeinsame Streuung | wird bei vielen Dimensionen aufgebläht |
-| **Chatterjee ξ** | wie glatt ist y als Funktion von x (Ränge der Nachbarn) | Funktionen, auch wellige | Kreis, Streuung (keine Funktion), kleines n |
+| **Distanzkorrelation** | Abstände der Punkte untereinander, doppelt zentriert | im Prinzip jede Abhängigkeit (Population), auch gemeinsame Streuung | bei n = 100 findet der Test das Schachbrett nur in 14 %, den Kreis in 29 % der Läufe; wird bei vielen Dimensionen aufgebläht |
+| **Chatterjee ξ** | wie glatt ist y als Funktion von x (Ränge der Nachbarn) | Funktionen, auch wellige | schwach bei Kreis und wachsender Streuung (keine Funktion; n = 100: 41 % und 30 %) und bei kleinem n |
 | **Hoeffding D** | Abstand der gemeinsamen von der Produkt-Verteilungsfunktion | allgemeine Abhängigkeit | Gleichstände, flache Muster |
 | **Transinformation** | Klassentafel aus k × k Quantilklassen | grobe Muster, Schachbrett | zu grobes oder zu feines Raster |
         """
@@ -205,7 +205,7 @@ st.markdown("---")
 st.subheader("🔬 Experiment 5: Viele Spalten – die Distanzkorrelation der Stichprobe wird aufgebläht")
 st.markdown(
     "Unabhängige Normalvektoren der Dimension p auf beiden Seiten, n = 50 (4 · 25 Läufe je Zeile). Die **Stichprobe** der Distanzkorrelation (V-Statistik, wie sie die meisten Programme "
-    "ausgeben) wächst mit p, obwohl nichts zusammenhängt; die **bias-korrigierte** Fassung bleibt bei null."
+    "ausgeben) wächst mit p, obwohl nichts zusammenhängt; die **bias-korrigierte** Fassung liegt im Mittel bei null."
 )
 if st.button("🔁 Dimension rechnen (p bis 200, wenige Sekunden)", key="btn_dim"):
     with st.spinner("Rechne die Dimensionen …"):
